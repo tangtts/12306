@@ -1,0 +1,21 @@
+GET http://localhost:8081/member/hello
+Accept: application/json
+
+<> 2024-05-08T155207.200.json
+
+###
+GET http://localhost:8000/member/hello
+Accept: application/json
+
+###
+GET http://localhost:8081/member/count
+Accept: application/json
+
+# 使用 ptrp 生成带参数的 post 请求
+###
+POST http://localhost:8000/member/register
+Content-Type: application/x-www-form-urlencoded
+
+mobile = "123456"
+
+###
