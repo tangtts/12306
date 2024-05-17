@@ -23,7 +23,7 @@ import org.springframework.web.multipart.MultipartFile;
 @Component
 public class LogAspect {
     public LogAspect() {
-        System.out.println("Common2 LogAspect");
+        System.out.println("Common LogAspect");
     }
 
     private final static Logger LOG = LoggerFactory.getLogger(LogAspect.class);
